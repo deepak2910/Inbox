@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Gmail_test_suite]">
+  <test name="Inbox Mail Recieve Test1(failed)">
+    <classes>
+      <class name="Test_testng.Sample_test_testng">
+        <methods>
+          <include name="close_window"/>
+          <include name="open_browser"/>
+          <include name="run_test"/>
+        </methods>
+      </class> <!-- Test_testng.Sample_test_testng -->
+      <class name="Test_testng.Sample_test_testng_2">
+        <methods>
+          <include name="close_window"/>
+          <include name="open_browser"/>
+        </methods>
+      </class> <!-- Test_testng.Sample_test_testng_2 -->
+    </classes>
+  </test> <!-- Inbox Mail Recieve Test1(failed) -->
+  <test name="Inbox Mail Recieve Test2(failed)">
+    <classes>
+      <class name="Test_testng.Sample_test_testng">
+        <methods>
+          <include name="close_window"/>
+          <include name="open_browser"/>
+        </methods>
+      </class> <!-- Test_testng.Sample_test_testng -->
+      <class name="Test_testng.Sample_test_testng_2">
+        <methods>
+          <include name="run_test"/>
+          <include name="close_window"/>
+          <include name="open_browser"/>
+        </methods>
+      </class> <!-- Test_testng.Sample_test_testng_2 -->
+    </classes>
+  </test> <!-- Inbox Mail Recieve Test2(failed) -->
+</suite> <!-- Failed suite [Gmail_test_suite] -->

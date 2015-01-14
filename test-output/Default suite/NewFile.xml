@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Gmail_test_suite" parallell="tests" thread-count="2">
+<test name="Inbox Mail Recieve Test1">
+<classes>
+<class  name="Test_testng.Sample_test_testng"/>
+</classes>
+</test>
+<test name="Inbox Mail Recieve Test2">
+<classes>
+<class  name="Test_testng.Sample_test_testng_2"/>
+</classes>
+</test>
+</suite>

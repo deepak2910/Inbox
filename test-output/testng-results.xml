@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gmail_test_suite" duration-ms="36208" started-at="2015-01-13T09:01:08Z" finished-at="2015-01-13T09:01:44Z">
+    <groups>
+    </groups>
+    <test name="Inbox Mail Recieve Test1" duration-ms="19747" started-at="2015-01-13T09:01:08Z" finished-at="2015-01-13T09:01:28Z">
+      <class name="Test_testng.Sample_test_testng">
+        <test-method status="PASS" signature="open_browser()[pri:0, instance:Test_testng.Sample_test_testng@55269777]" name="open_browser" is-config="true" duration-ms="1096" started-at="2015-01-13T14:31:08Z" finished-at="2015-01-13T14:31:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_browser -->
+        <test-method status="PASS" signature="run_test()[pri:0, instance:Test_testng.Sample_test_testng@55269777]" name="run_test" duration-ms="18627" started-at="2015-01-13T14:31:09Z" finished-at="2015-01-13T14:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_test -->
+        <test-method status="PASS" signature="close_window()[pri:0, instance:Test_testng.Sample_test_testng@55269777]" name="close_window" is-config="true" duration-ms="9" started-at="2015-01-13T14:31:28Z" finished-at="2015-01-13T14:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_window -->
+      </class> <!-- Test_testng.Sample_test_testng -->
+    </test> <!-- Inbox Mail Recieve Test1 -->
+    <test name="Inbox Mail Recieve Test2" duration-ms="16438" started-at="2015-01-13T09:01:28Z" finished-at="2015-01-13T09:01:44Z">
+      <class name="Test_testng.Sample_test_testng_2">
+        <test-method status="PASS" signature="open_browser()[pri:0, instance:Test_testng.Sample_test_testng_2@19d9fd3]" name="open_browser" is-config="true" duration-ms="505" started-at="2015-01-13T14:31:28Z" finished-at="2015-01-13T14:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_browser -->
+        <test-method status="PASS" signature="run_test()[pri:0, instance:Test_testng.Sample_test_testng_2@19d9fd3]" name="run_test" duration-ms="15925" started-at="2015-01-13T14:31:28Z" finished-at="2015-01-13T14:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_test -->
+        <test-method status="PASS" signature="close_window()[pri:0, instance:Test_testng.Sample_test_testng_2@19d9fd3]" name="close_window" is-config="true" duration-ms="6" started-at="2015-01-13T14:31:44Z" finished-at="2015-01-13T14:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_window -->
+      </class> <!-- Test_testng.Sample_test_testng_2 -->
+    </test> <!-- Inbox Mail Recieve Test2 -->
+  </suite> <!-- Gmail_test_suite -->
+</testng-results>
